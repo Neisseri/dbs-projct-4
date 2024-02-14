@@ -1,0 +1,16 @@
+compile:
+  commands: make
+
+run:
+  commands: ./build/database
+  flags:
+    - query
+    - join
+    - pk
+    - fk
+    - comb
+    - order
+    - data
+    - index
+    - order
+

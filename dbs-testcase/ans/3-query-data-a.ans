@@ -1,0 +1,59 @@
+@USE DATASET;
+
+R_REGIONKEY,R_NAME,R_COMMENT
+0,AFRICA,lar deposits. blithely final packages cajole. regular waters are final requests. regular accounts are according to
+1,AMERICA,hs use ironic  even requests. s
+2,ASIA,ges. thinly even pinto beans ca
+3,EUROPE,ly final courts cajole furiously final excuse
+4,MIDDLE EAST,uickly special accounts cajole carefully blithely close requests. carefully final asymptotes haggle furiousl
+@SELECT * FROM REGION;
+
+R_REGIONKEY,R_NAME,R_COMMENT
+1,AMERICA,hs use ironic  even requests. s
+@SELECT * FROM REGION WHERE REGION.R_REGIONKEY = 1;
+
+R_REGIONKEY
+2
+@SELECT R_REGIONKEY FROM REGION WHERE REGION.R_REGIONKEY < 3 AND REGION.R_REGIONKEY > 1;
+
+R_REGIONKEY
+@SELECT R_REGIONKEY FROM REGION WHERE REGION.R_REGIONKEY < 6 AND REGION.R_REGIONKEY > 1 AND REGION.R_NAME = 'AMERICA';
+
+S_SUPPKEY,S_ACCTBAL
+22,-966.20
+65,-963.79
+1458,-980.21
+1654,-988.37
+1764,-990.13
+1845,-971.99
+1870,-989.05
+1907,-987.45
+2908,-986.42
+@SELECT S_SUPPKEY, S_ACCTBAL FROM SUPPLIER WHERE SUPPLIER.S_ACCTBAL <= -963.2;
+
+L_PARTKEY,L_SUPPKEY,L_ORDERKEY,L_LINENUMBER,L_COMMENT
+6367,368,22950,1,ze through the un
+49910,1911,246694,2,ze fluffily. accounts across the fluff
+9217,2477,283492,3,zzle. carefully final packages detec
+4401,2904,293158,5,ze requests. ironic foxes
+36050,51,314049,1,zzle against the unusual  final ac
+3691,1443,396261,1,ze across the regula
+24003,762,409348,2,zle furiously aroun
+4955,2707,528036,1,ze ironically? fluffily regular pack
+55581,2350,545606,3,ze from the furiously express pinto beans.
+44002,1295,604802,6,zzle slyly after the slyly pending deposits
+3210,2464,680357,4,ze slyly regular accounts. c
+41607,1897,933412,2,ze carefully abou
+10829,336,943840,1,zle above the blithely regular req
+3339,1091,1029157,3,zzle carefully slyly
+25212,1971,1069221,4,zle furiousl
+19215,1972,1082434,1,zzle carefully across the regular
+13245,2000,1091588,2,ze carefully after the unusual foxes.
+48871,1638,1363457,5,zle fluffi
+34669,953,1370913,2,ze blithely across the ironic  ironic p
+47915,681,1474663,2,ze blithely at the express  pendin
+51189,1724,1498370,2,zle fluffily. ironic dependencies
+35564,1848,1521539,3,zzle slyly about the furiousl
+41932,696,1789830,1,ze according to the furiously r
+@SELECT L_PARTKEY, L_SUPPKEY, L_ORDERKEY, L_LINENUMBER, L_COMMENT FROM LINEITEM WHERE LINEITEM.L_QUANTITY > 5.1 AND LINEITEM.L_QUANTITY < 7.2 AND LINEITEM.L_COMMENT >= 'z';
+

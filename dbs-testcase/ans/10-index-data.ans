@@ -1,0 +1,400 @@
+@USE DATASET;
+
+L_PARTKEY,L_SUPPKEY,L_ORDERKEY,L_LINENUMBER,L_COMMENT
+1,2252,976196,2,y final pinto beans are sly
+4,2255,447108,6,zle enticingly toward the quickly silent
+6,2257,1081381,6,y quickly regular asympto
+7,758,422529,2,y pending accounts impress acros
+8,9,1025575,1,ymptotes sleep final  unusua
+8,759,186275,5,yly against the express accounts. even re
+8,2259,764166,5,y stealthy pinto
+9,2260,538663,2,yly above the r
+@SELECT L_PARTKEY, L_SUPPKEY, L_ORDERKEY, L_LINENUMBER, L_COMMENT FROM LINEITEM WHERE LINEITEM.L_PARTKEY < 10 AND LINEITEM.L_COMMENT >= 'y';
+
+L_PARTKEY,L_SUPPKEY,L_ORDERKEY,L_LINENUMBER,L_COMMENT
+1,2252,976196,2,y final pinto beans are sly
+4,2255,447108,6,zle enticingly toward the quickly silent
+6,2257,1081381,6,y quickly regular asympto
+7,758,422529,2,y pending accounts impress acros
+8,9,1025575,1,ymptotes sleep final  unusua
+8,759,186275,5,yly against the express accounts. even re
+8,2259,764166,5,y stealthy pinto
+9,2260,538663,2,yly above the r
+10,761,1086497,2,ymptotes according to the
+10,2261,228033,4,y ironic sheaves nag carefully
+10,2261,797286,3,y fluffily. regularly iro
+11,762,278528,4,y. furiously regular accounts hang about
+11,762,1356448,1,y special instructio
+11,762,1481478,3,y according to the quickly fi
+12,1513,1529286,1,y special de
+14,15,763462,1,y bold deposits. quickly final notorn
+17,1518,841124,2,y final ideas caj
+@SELECT L_PARTKEY, L_SUPPKEY, L_ORDERKEY, L_LINENUMBER, L_COMMENT FROM LINEITEM WHERE LINEITEM.L_PARTKEY < 20 AND LINEITEM.L_COMMENT >= 'y';
+
+L_PARTKEY,L_SUPPKEY,L_ORDERKEY,L_LINENUMBER,L_COMMENT
+1,2252,976196,2,y final pinto beans are sly
+4,2255,447108,6,zle enticingly toward the quickly silent
+6,757,1539109,1,xpress accounts. unusual acco
+6,1507,1371938,2,xes wake pinto beans. regular  s
+6,2257,967332,3,xpress foxes sleep against the bold ac
+6,2257,1081381,6,y quickly regular asympto
+7,758,422529,2,y pending accounts impress acros
+8,9,1025575,1,ymptotes sleep final  unusua
+8,759,186275,5,yly against the express accounts. even re
+8,2259,764166,5,y stealthy pinto
+9,2260,538663,2,yly above the r
+@SELECT L_PARTKEY, L_SUPPKEY, L_ORDERKEY, L_LINENUMBER, L_COMMENT FROM LINEITEM WHERE LINEITEM.L_PARTKEY < 10 AND LINEITEM.L_COMMENT >= 'x';
+
+L_PARTKEY,L_SUPPKEY,L_ORDERKEY,L_LINENUMBER,L_COMMENT
+80,81,431141,2, furiously express ex
+80,81,1483972,1,  blithe waters. request
+80,831,647234,1, quick requests cajole. slyly ironic requ
+80,831,746947,1, quickly bold ideas on the
+80,1581,194179,1, special  regula
+80,1581,627301,4, packages. furiously
+80,1581,882756,3,ake quickly against the slyly
+80,1581,1539300,7, furiously. furiously pending inst
+80,1581,1652353,6, even accounts use carefully reg
+80,2331,249603,5, cajole carefully blithely i
+80,2331,494691,4, furiously special requests s
+80,2331,1270178,3, of the slyly ironic deposi
+80,2331,1629253,4, ironic accounts detect blithely
+80,2331,1632256,1, regular requests sleep furiously across th
+81,82,815457,2,ard the blithely bold foxes nag across
+81,82,1323428,2, ideas sleep furiously. carefully iro
+81,82,1454595,3,ar  final grouch
+81,82,1600710,3,ar packages cajole
+81,832,748192,1,blithely silent accounts. unusual  bold f
+81,2332,1701954,2,are furious
+82,83,305668,2, above the packages: unusual  silent
+82,83,471974,3,ar accounts sub
+82,83,1539270,3, use to the furiousl
+82,833,56933,2, are carefully quickly silent accounts
+82,833,217478,1,al dependencies nag. sly
+82,833,340802,5, beans cajole
+82,833,441952,1,. final deposits across th
+82,1583,181092,1, ironic instr
+82,1583,413728,3,blithely unusual instructi
+82,1583,581925,1,. regular  regular pinto beans ab
+82,1583,941761,3, even accou
+82,2333,1757633,2, slyly against the furiously final a
+83,84,79046,2, quickly furiously unusua
+83,84,1096930,6,as. bold pinto beans impress qu
+83,84,1234243,1,bout the slyly ironic platelets. a
+83,834,1062918,3, regular platelets sleep. ex
+83,1584,424354,3, affix carefully according to the
+83,1584,1018465,4, requests. slyly final packages abo
+83,1584,1085507,6, dugouts about
+83,2334,522373,1,ages. furiou
+83,2334,875460,2,above the slyly regular req
+83,2334,1248768,1, the gifts. dugouts affi
+83,2334,1581889,6,beans alongs
+84,85,1287,3,ar packages. even  even
+84,85,242049,6,. regular packages
+84,835,974178,4,. even foxes sle
+84,835,1211297,3, furiously bold packages sleep c
+84,835,1616064,6, carefully about
+84,1585,778789,2, regular deposits impres
+84,2335,1600582,1, the pending deposits. quickly final inst
+85,86,241988,3, accounts. slyly
+85,86,522849,3,blithely across the
+85,86,743008,4, packages pr
+85,86,1119617,2, packages. fluffily pending orbi
+85,836,731463,2, regular pinto be
+85,836,806373,5, ironic foxes. pending deposits boost.
+85,836,1025187,1, final packages wake
+85,836,1663621,1, of the fluffily ironic requests
+85,1586,441796,6,. carefully regular notornis haggle above
+85,1586,1717057,3, asymptote
+85,2336,1148293,1, stealthy depos
+85,2336,1736256,1, tithes integrate qui
+86,87,185351,1,al pinto beans are blithely
+86,87,1706370,3, serve carefull
+86,87,1748001,1,arly ironic theodolites haggle quickly
+86,837,415237,3,al requests w
+86,837,1224900,1, quick dolphins sleep. in
+86,837,1238244,2,. even theodolites lose slyly am
+86,1587,304737,1, dolphins sublate careful
+86,1587,611846,2, courts. final  fin
+86,1587,999682,4,. instructions cajole furious
+86,1587,1038338,6, blithely along the fur
+86,2337,1136800,4,against the blithely even requests
+86,2337,1268064,3, the special foxes. un
+87,88,177767,1, hockey players
+87,838,402662,3, use quietly silent attainments
+87,838,1001060,1,ach carefully above the regular dep
+87,1588,1587427,7, deposits. instr
+88,89,547586,5,  final requests haggle fluffily. instructi
+88,89,1649090,3,al theodolites unwind against the fu
+88,839,632709,3,ar theodolites shall have to kindle blithel
+88,839,1276708,6, final plat
+88,1589,1035296,2, bold platelets. regular packa
+88,1589,1146339,2,al deposits cajole slyly re
+88,1589,1279939,1,al requests. final  even packa
+88,1589,1326336,5, slyly atop the silent accounts. final re
+88,2339,96133,5,  pending pinto beans are careful
+88,2339,446534,5,about the even requests. furiousl
+88,2339,1485221,2, ironic accounts
+88,2339,1621411,2, pending excuses are caref
+89,90,915143,3, blithely ironic platelets around the fl
+89,90,1052644,6, deposits. ironic packages breach
+89,1590,412230,1, excuses. requests h
+89,2340,150502,1, quickly bold foxe
+90,841,605888,3, foxes after the slyly unusual ideas
+90,1591,1316454,3, requests affix: quickly even accounts caj
+90,2341,1095170,1,blithely accounts. final grouches sleep ac
+91,92,434822,2, furiously regul
+91,92,1199138,1, nag slyly around the furio
+91,92,1431074,5,ages sleep fluffily express depende
+91,842,268580,5, platelets nag
+91,1592,533479,3, across the fluffily bra
+91,1592,833344,3, packages haggle slyly
+91,1592,1046342,6, bold requests integrate. slyly fina
+91,2342,723782,2,. carefully special d
+91,2342,1406624,5, bold theodolite
+91,2342,1732832,5, carefully regular th
+92,93,357991,1,. carefully quick asympt
+92,93,713894,6,al  final ideas breach across the
+92,843,1042437,3, slyly express warthogs. spec
+92,1593,23493,2,ans according to the
+93,94,95169,2, silent packages: furiously ironic package
+93,94,1238983,2, to the carefully re
+93,94,1278343,2, are always si
+93,844,418178,1, the fluffil
+93,1594,284387,6, sleep blithely alongside
+93,1594,359559,2,  thin packages cajole carefully alongs
+93,1594,1150882,5,ake. special packages inside the c
+93,1594,1302786,2, ironic pinto beans impress
+93,1594,1307264,3, quickly even
+93,1594,1671654,5, slyly busily express braids. closely thi
+93,2344,523749,1,ans-- blithely ironic asymptot
+94,95,168965,3, the blithely fin
+94,95,322050,6, fluffily. fluffily regular platelets are
+94,95,1131648,1, ironic foxes unwind blithely s
+94,845,902880,3,? slyly even
+94,845,1580515,4, blithely special ideas af
+94,2345,875811,5, detect. regular ideas cajole flu
+94,2345,1220642,2,  express theodolites hang special reques
+95,846,396257,5,blithely regular asymptotes. carefully f
+95,1596,541378,2,ans wake furiously. slyly bold requests
+95,2346,172583,2, carefully bold deposit
+96,97,1132515,5, ironic hockey pla
+96,97,1288199,2, the furiously regular pinto bea
+96,847,740964,5, express excuses cajole d
+96,847,1246245,3, even dependencies. slyly final inst
+96,1597,65568,2,. accounts sl
+96,1597,876769,5, express theodolites hagg
+97,98,181028,1, besides the slyly regular packages nag bl
+97,98,644036,2, regular ideas
+97,98,1597223,2,arefully express packages. sly
+97,848,894949,3,against th
+97,848,1081795,4, the regular
+97,1598,604293,1,ackages wake slyly special  even
+97,2348,1169123,4, waters wake slyly against the
+98,99,81475,3,ar requests
+98,99,925893,1, unusual dependencies. furiously
+98,849,1377668,4, with the quickl
+98,1599,270400,6,arefully ironic patterns along the
+98,1599,344291,2, accounts. blithe
+98,1599,1334210,2, fluffily final
+98,2349,449505,7, are. slyly re
+98,2349,597570,3, slyly busy packages. ironic pinto beans n
+99,100,1010663,1, deposits haggle blithely above the
+99,850,1262595,3, furiously. instructio
+99,1600,345412,2, ironic packages above
+99,2350,1356580,2,. blithely final pinto beans n
+@SELECT L_PARTKEY, L_SUPPKEY, L_ORDERKEY, L_LINENUMBER, L_COMMENT FROM LINEITEM WHERE LINEITEM.L_PARTKEY < 100 AND LINEITEM.L_PARTKEY >= 80 AND LINEITEM.L_COMMENT <= 'c';
+
+L_PARTKEY,L_SUPPKEY,L_ORDERKEY,L_LINENUMBER,L_COMMENT
+1,2,1225698,5, believe blithely ironic
+1,1502,16135,1,arefully regular packages haggle c
+1,1502,480000,5,ages: special pinto bea
+1,2252,864452,6, regular deposits. furio
+2,3,378466,4,aggle carefully. slyly even excus
+2,3,1393632,5, dolphins. even  even accou
+2,753,760897,1, courts kindle slyly s
+2,1503,1518656,1, the slyly
+3,4,690788,2,ages are slyly.
+3,754,691264,2, believe above the even de
+3,754,696455,1, beans are carefully against the
+3,2254,341283,1,as nag according to the furiou
+3,2254,505280,4, regular pi
+3,2254,1616963,7, among the quickly bold pinto beans. caref
+4,5,637734,5,ages-- blithely unusual requests use. even
+4,5,840519,2,are fluffily. waters ma
+4,5,1744097,2, after the instructions
+4,755,333888,5, furiously even platelet
+4,755,720065,1, according to the quiet pinto beans hag
+4,755,798336,3, carefully pending instructions. qu
+4,755,1269063,3,ages wake. slyly regular
+4,755,1622087,4, furiously ironic platelets.
+4,755,1772514,6, daringly silent requests
+4,1505,1641093,5,. deposits alongside of the carefull
+4,2255,1265574,1,  final excuses. blithely unusual a
+5,1506,727234,5,. deposits cajole across the ironic depe
+5,1506,851105,5,ays. dolphins boost. furiously regular acco
+5,1506,1144162,3, furiously ironic de
+5,2256,429157,1, quickly blithely
+5,2256,627045,2, haggle. blithely even p
+5,2256,960134,4, forges. quickly even ideas along t
+6,7,1634405,2, about the
+6,757,192224,1, asymptotes. boldly silent foxes alongside
+6,757,1267076,1,about the expre
+6,757,1418946,4,arefully. final  even in
+6,757,1772199,3, theodolites cajole slyly among the b
+6,1507,191074,1, bold ideas. furiously blithe instruction
+6,1507,801762,1,accounts. furiously regular package
+6,1507,1311044,1, quickly blithely
+6,1507,1427335,3,. slyly pending dependencies
+6,1507,1648640,1, pending id
+6,2257,12005,7, furiously express grouches sleep reg
+7,8,159940,2, boldly silent asymptotes a
+7,8,1181411,4, busy deposits. pendin
+7,2258,729858,1,against the
+7,2258,1098692,3, use quickly furiously bol
+8,9,1194279,1, instructions cajole. regular foxes
+8,759,101056,7, the blithely final accounts. silent
+8,759,203457,3, boost quickly even pinto beans! slyly s
+8,759,776867,2,ag quickly
+8,1509,1059076,5,are ruthlessly aft
+8,2259,465220,1, braids wake. bl
+8,2259,1236420,5,ally busy instructions across the carefull
+9,10,456896,6, ironic notornis are slyly even
+9,10,911424,1, excuses. deposits cajole alongside of the
+9,10,1573281,4,accounts nag
+9,10,1618626,1,. slyly special
+9,760,536546,6, silent pinto beans. sometimes final
+9,1510,876867,5, even  express sentiments
+9,1510,1760577,5, wake furiously furiously
+9,2260,997568,1, theodolites
+9,2260,1501030,4, beans are. instructions accor
+@SELECT L_PARTKEY, L_SUPPKEY, L_ORDERKEY, L_LINENUMBER, L_COMMENT FROM LINEITEM WHERE LINEITEM.L_PARTKEY < 10 AND LINEITEM.L_COMMENT <= 'b';
+
+rows
+5
+@INSERT INTO ORDERS VALUES (10, 100, 'F', 1234.5, '3-MDEIUM', 'Clerk#000000001', 0, 'nothing here'), (11, 101, 'F', 1234.5, '3-MDEIUM', 'Clerk#000000002', 0, 'nothing there'), (12, 102, 'F', 2234.5, '3-MDEIUM', 'Clerk#000000003', 0, 'still nothing'), (330, 303, 'O', 12346.5, '3-MDEIUM', 'Clerk#000000023', 0, 'nothing!'), (451000, 3246, 'F', 98765.5, '3-MDEIUM', 'Clerk#000003453', 0, 'wow');
+
+O_ORDERKEY,O_CUSTKEY,O_ORDERSTATUS,O_TOTALPRICE,O_ORDERPRIORITY,O_CLERK,O_SHIPPRIORITY,O_COMMENT
+6,16687,F,64263.31,4-NOT SPECIFIED,Clerk#000000058,0,ggle. special  final requests are against the furiously specia
+7,11741,O,261373.31,2-HIGH,Clerk#000000470,0,ly special requests
+10,100,F,1234.50,3-MDEIUM,Clerk#000000001,0,nothing here
+11,101,F,1234.50,3-MDEIUM,Clerk#000000002,0,nothing there
+12,102,F,2234.50,3-MDEIUM,Clerk#000000003,0,still nothing
+32,39019,O,182644.53,2-HIGH,Clerk#000000616,0,ise blithely bold  regular requests. quickly unusual dep
+33,20089,F,120387.78,3-MEDIUM,Clerk#000000409,0,uriously. furiously final request
+34,18301,O,68835.99,3-MEDIUM,Clerk#000000223,0,ly final packages. fluffily final deposits wake blithely ideas. spe
+35,38278,O,216801.97,4-NOT SPECIFIED,Clerk#000000259,0,zzle. carefully enticing deposits nag furio
+36,34576,O,71315.84,1-URGENT,Clerk#000000358,0, quick packages are blithely. slyly silent accounts wake qu
+37,25835,F,178653.65,3-MEDIUM,Clerk#000000456,0,kly regular pinto beans. carefully unusual waters cajole never
+38,37450,O,73448.81,4-NOT SPECIFIED,Clerk#000000604,0,haggle blithely. furiously express ideas haggle blithely furiously regular re
+39,24529,O,312608.40,3-MEDIUM,Clerk#000000659,0,ole express  ironic requests: ir
+@SELECT * FROM ORDERS WHERE O_ORDERKEY > 5 AND O_ORDERKEY < 50;
+
+O_ORDERKEY,O_CUSTKEY,O_ORDERSTATUS,O_TOTALPRICE,O_ORDERPRIORITY,O_CLERK,O_SHIPPRIORITY,O_COMMENT
+450912,24685,O,85775.18,3-MEDIUM,Clerk#000000638,0,side the deposits. even ins
+450913,1027,O,61894.68,3-MEDIUM,Clerk#000000385,0, bold accounts was furiously idly express pinto bea
+450914,15878,O,101903.05,5-LOW,Clerk#000000306,0,ckages detect carefully during the pending  final instructions. final ins
+450915,1603,O,161677.13,5-LOW,Clerk#000000709,0,ng the special dependencies integr
+450916,24592,O,147924.20,5-LOW,Clerk#000000391,0,ole. pinto beans among the slyly ironic forges integrate carefully across th
+450917,10972,O,70279.69,5-LOW,Clerk#000000949,0,sly pending deposits sleep slyly even  special re
+450918,25784,O,114912.10,3-MEDIUM,Clerk#000000589,0,t slyly ironic decoys; requests cajole blithely spe
+450919,43666,F,191400.08,2-HIGH,Clerk#000000285,0,ounts. furiously regular forges haggle slyly
+450944,3718,O,244984.32,3-MEDIUM,Clerk#000000340,0,ickly express excuses according to the final theodolites boost regula
+450945,18350,O,118374.89,3-MEDIUM,Clerk#000000014,0,requests use blithely close deposits: ironic in
+450946,21859,O,195701.72,3-MEDIUM,Clerk#000000408,0,y against the quickly express Tiresias. finally express packages
+450947,43907,F,135143.32,2-HIGH,Clerk#000000903,0,e to sleep bravely pending deposits: pending  ironic accounts could h
+450948,34247,F,202916.38,1-URGENT,Clerk#000000009,0,ven  even accounts. slyly express accounts are furiously along
+450949,33139,O,43875.42,2-HIGH,Clerk#000000140,0, foxes cajole quickly silent
+450950,34297,O,3870.17,4-NOT SPECIFIED,Clerk#000000401,0,the carefully regular packages. furiously unusual requests sleep blithely. r
+450951,10787,O,68542.63,4-NOT SPECIFIED,Clerk#000000310,0,s use among the carefully regular foxes. express packages x-r
+450976,36940,O,243148.52,5-LOW,Clerk#000000897,0,ual pinto beans. regular  final as
+450977,44470,F,83424.53,5-LOW,Clerk#000000967,0,s ideas use alongside of the bravely s
+450978,17446,F,114151.89,4-NOT SPECIFIED,Clerk#000000566,0,l accounts. deposits nod slyly even ideas. bold
+450979,6427,F,286336.71,4-NOT SPECIFIED,Clerk#000000550,0, beans. ruthlessly final foxes haggle requests. ir
+450980,17501,O,131195.14,3-MEDIUM,Clerk#000000701,0,ainments. ironic  even accounts cajole fluffily express requests. enti
+450981,11144,O,114187.55,1-URGENT,Clerk#000000768,0, beans nag slyly. slyly bold ideas nod after the blithel
+450982,136,F,163513.58,3-MEDIUM,Clerk#000000128,0,lyly ironic decoys. specia
+450983,21241,F,49284.64,4-NOT SPECIFIED,Clerk#000000209,0,uffily pending dolp
+451000,3246,F,98765.50,3-MDEIUM,Clerk#000003453,0,wow
+451008,11233,O,174453.30,2-HIGH,Clerk#000000691,0,re quietly along the special packages. slyly ironic ideas boost bold ac
+451009,2461,O,194771.35,2-HIGH,Clerk#000000120,0,ons detect. quickly ironic a
+451010,42358,O,77440.90,4-NOT SPECIFIED,Clerk#000000101,0, final accounts above the even  regular asymptotes wake
+451011,41899,F,287759.61,5-LOW,Clerk#000000601,0, blithely-- furiously fi
+451012,10075,O,157827.65,4-NOT SPECIFIED,Clerk#000000654,0, brave foxes wake furiously above the ironic packages. slyly regular
+451013,14339,F,195474.88,5-LOW,Clerk#000000384,0,kly final packages are carefully. ironic
+451014,8692,F,222391.92,3-MEDIUM,Clerk#000000245,0,he blithely express instructions shall nod furio
+451015,6406,F,121259.92,1-URGENT,Clerk#000000860,0, haggle blithely among the careful
+451040,20032,O,33310.40,1-URGENT,Clerk#000000354,0, special platelets sleep according to the quickly special accounts
+451041,17671,F,135458.35,3-MEDIUM,Clerk#000000498,0,ly furiously regular
+451042,27044,F,94086.00,3-MEDIUM,Clerk#000000768,0, of the quickly pending deposits. carefully special dependencies wake sly
+451043,26467,F,89030.66,3-MEDIUM,Clerk#000000912,0,t blithely. furiously reg
+451044,22664,F,142674.70,3-MEDIUM,Clerk#000000929,0,ily ironic excuses. carefully reg
+451045,21625,F,200601.70,1-URGENT,Clerk#000000471,0,ckages. carefully ironic packages integrate. bold a
+451046,29512,F,232740.16,1-URGENT,Clerk#000000020,0,foxes sleep above the blithely ironic theodolites. closely sp
+451047,10955,F,101604.39,2-HIGH,Clerk#000000634,0, deposits according to the slyly unusual dolph
+451072,16738,O,289515.27,4-NOT SPECIFIED,Clerk#000000969,0, pending  final packages. flu
+451073,1318,O,132397.85,5-LOW,Clerk#000000751,0,n requests. bold instruct
+451074,26303,F,220296.11,2-HIGH,Clerk#000000452,0,ietly ironic decoys boost furiou
+451075,23612,O,131987.40,3-MEDIUM,Clerk#000000410,0,kages. express  unusual deposits integrate
+451076,27848,F,210226.92,2-HIGH,Clerk#000000187,0,pliers was blithely furiously even f
+451077,31522,F,233154.16,1-URGENT,Clerk#000000532,0,ajole. accounts sublate blithel
+451078,1864,O,132555.57,3-MEDIUM,Clerk#000000011,0,xes haggle against the busily
+451079,40135,F,86042.76,4-NOT SPECIFIED,Clerk#000000895,0,nod. ironic Tiresias boost according
+451104,39547,O,272243.17,4-NOT SPECIFIED,Clerk#000000282,0,y. regular  special instructions boost above the fluffily special T
+451105,36970,F,296679.19,2-HIGH,Clerk#000000802,0,l realms. quickly regular deposits haggle. dogged
+451106,34664,F,100185.28,2-HIGH,Clerk#000000246,0, excuses. dependencies impress ca
+451107,16756,F,185158.60,5-LOW,Clerk#000000601,0,cial ideas. quickly bold foxes are. silently special
+451108,4855,O,40311.95,4-NOT SPECIFIED,Clerk#000000741,0,nly according to the slyly
+451109,32680,F,121902.59,2-HIGH,Clerk#000000799,0,ual warhorses. slyly expres
+451110,13141,O,144893.06,1-URGENT,Clerk#000000023,0, doubt carefully. un
+451111,21715,O,195105.54,2-HIGH,Clerk#000000235,0, are finally brave packages. carefully ironic theodolites affix quickly
+@SELECT * FROM ORDERS WHERE O_ORDERKEY >= 450900 AND O_ORDERKEY <= 451111;
+
+O_ORDERKEY,O_CUSTKEY,O_ORDERSTATUS,O_TOTALPRICE,O_ORDERPRIORITY,O_CLERK,O_SHIPPRIORITY,O_COMMENT
+123456,10249,F,58312.52,2-HIGH,Clerk#000000626,0,ronic  final packages. carefully even foxes boost slyly blith
+@SELECT * FROM ORDERS WHERE O_ORDERKEY = 123456;
+
+rows
+107
+@DELETE FROM LINEITEM WHERE L_ORDERKEY >= 450950 AND L_ORDERKEY < 451050;
+
+rows
+1
+@DELETE FROM ORDERS WHERE O_ORDERKEY = 451010;
+
+O_ORDERKEY,O_CUSTKEY,O_ORDERSTATUS,O_TOTALPRICE,O_ORDERPRIORITY,O_CLERK,O_SHIPPRIORITY,O_COMMENT
+451000,3246,F,98765.50,3-MDEIUM,Clerk#000003453,0,wow
+451008,11233,O,174453.30,2-HIGH,Clerk#000000691,0,re quietly along the special packages. slyly ironic ideas boost bold ac
+451009,2461,O,194771.35,2-HIGH,Clerk#000000120,0,ons detect. quickly ironic a
+@SELECT * FROM ORDERS WHERE O_ORDERKEY > 450990 AND O_ORDERKEY <= 451010;
+
+rows
+25
+@DELETE FROM ORDERS WHERE O_ORDERKEY > 450950 AND O_ORDERKEY < 451050;
+
+O_ORDERKEY,O_CUSTKEY,O_ORDERSTATUS,O_TOTALPRICE,O_ORDERPRIORITY,O_CLERK,O_SHIPPRIORITY,O_COMMENT
+450912,24685,O,85775.18,3-MEDIUM,Clerk#000000638,0,side the deposits. even ins
+450913,1027,O,61894.68,3-MEDIUM,Clerk#000000385,0, bold accounts was furiously idly express pinto bea
+450914,15878,O,101903.05,5-LOW,Clerk#000000306,0,ckages detect carefully during the pending  final instructions. final ins
+450915,1603,O,161677.13,5-LOW,Clerk#000000709,0,ng the special dependencies integr
+450916,24592,O,147924.20,5-LOW,Clerk#000000391,0,ole. pinto beans among the slyly ironic forges integrate carefully across th
+450917,10972,O,70279.69,5-LOW,Clerk#000000949,0,sly pending deposits sleep slyly even  special re
+450918,25784,O,114912.10,3-MEDIUM,Clerk#000000589,0,t slyly ironic decoys; requests cajole blithely spe
+450919,43666,F,191400.08,2-HIGH,Clerk#000000285,0,ounts. furiously regular forges haggle slyly
+450944,3718,O,244984.32,3-MEDIUM,Clerk#000000340,0,ickly express excuses according to the final theodolites boost regula
+450945,18350,O,118374.89,3-MEDIUM,Clerk#000000014,0,requests use blithely close deposits: ironic in
+450946,21859,O,195701.72,3-MEDIUM,Clerk#000000408,0,y against the quickly express Tiresias. finally express packages
+450947,43907,F,135143.32,2-HIGH,Clerk#000000903,0,e to sleep bravely pending deposits: pending  ironic accounts could h
+450948,34247,F,202916.38,1-URGENT,Clerk#000000009,0,ven  even accounts. slyly express accounts are furiously along
+450949,33139,O,43875.42,2-HIGH,Clerk#000000140,0, foxes cajole quickly silent
+450950,34297,O,3870.17,4-NOT SPECIFIED,Clerk#000000401,0,the carefully regular packages. furiously unusual requests sleep blithely. r
+451072,16738,O,289515.27,4-NOT SPECIFIED,Clerk#000000969,0, pending  final packages. flu
+451073,1318,O,132397.85,5-LOW,Clerk#000000751,0,n requests. bold instruct
+451074,26303,F,220296.11,2-HIGH,Clerk#000000452,0,ietly ironic decoys boost furiou
+451075,23612,O,131987.40,3-MEDIUM,Clerk#000000410,0,kages. express  unusual deposits integrate
+451076,27848,F,210226.92,2-HIGH,Clerk#000000187,0,pliers was blithely furiously even f
+451077,31522,F,233154.16,1-URGENT,Clerk#000000532,0,ajole. accounts sublate blithel
+451078,1864,O,132555.57,3-MEDIUM,Clerk#000000011,0,xes haggle against the busily
+451079,40135,F,86042.76,4-NOT SPECIFIED,Clerk#000000895,0,nod. ironic Tiresias boost according
+@SELECT * FROM ORDERS WHERE O_ORDERKEY >= 450900 AND O_ORDERKEY <= 451100;
+

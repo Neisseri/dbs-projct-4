@@ -1,0 +1,5 @@
+-- @Name: optional
+-- @Depends: join join-data index-data comb-fk-schema fk-schema fk comb-fk
+-- @Flags: 
+-- @Description: This is a checkpoint to make sure you finish all required contents before you start optional contents
+-- @Score: 0

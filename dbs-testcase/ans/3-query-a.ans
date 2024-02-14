@@ -1,0 +1,120 @@
+@USE DB;
+
+a,b,c
+@SELECT * FROM TBL;
+
+rows
+1
+@INSERT INTO TBL VALUES (1, '1', 1.0);
+
+a,b,c
+1,1,1.00
+@SELECT * FROM TBL;
+
+rows
+5
+@INSERT INTO TBL VALUES (2, '2', 2.0), (3, '3', 3.0), (4, '4', 4.0), (5, '5', 5.0), (6, '6', 6.0);
+
+a,b,c
+1,1,1.00
+2,2,2.00
+3,3,3.00
+4,4,4.00
+5,5,5.00
+6,6,6.00
+@SELECT * FROM TBL WHERE TBL.a >= 0;
+
+rows
+2
+@INSERT INTO TBL VALUES (2, '2', 2.0), (3, '3', 3.0);
+
+a,b,c
+2,2,2.00
+3,3,3.00
+4,4,4.00
+5,5,5.00
+6,6,6.00
+2,2,2.00
+3,3,3.00
+@SELECT * FROM TBL WHERE TBL.a > 1;
+
+a,b,c
+1,1,1.00
+2,2,2.00
+3,3,3.00
+4,4,4.00
+5,5,5.00
+6,6,6.00
+2,2,2.00
+3,3,3.00
+@SELECT a, b, c FROM TBL;
+
+c,b,a
+1.00,1,1
+2.00,2,2
+3.00,3,3
+4.00,4,4
+5.00,5,5
+6.00,6,6
+2.00,2,2
+3.00,3,3
+@SELECT c, b, a FROM TBL;
+
+b,c
+1,1.00
+2,2.00
+3,3.00
+4,4.00
+5,5.00
+6,6.00
+2,2.00
+3,3.00
+@SELECT b, c FROM TBL;
+
+a,b,c
+4,4,4.00
+5,5,5.00
+@SELECT * FROM TBL WHERE TBL.a <= 5 AND TBL.a >= 4;
+
+c
+3.00
+3.00
+@SELECT c FROM TBL WHERE TBL.a < 5 AND TBL.b = '3';
+
+b
+1
+2
+5
+6
+2
+@SELECT b FROM TBL WHERE TBL.b <> '3' AND TBL.b <> '4';
+
+b
+4
+@SELECT b FROM TBL WHERE TBL.b <> '3' AND TBL.b = '4';
+
+a,b,c
+3,3,3.00
+4,4,4.00
+5,5,5.00
+6,6,6.00
+3,3,3.00
+@SELECT * FROM TBL WHERE TBL.c > 2.5;
+
+a,b,c
+1,1,1.00
+2,2,2.00
+2,2,2.00
+@SELECT * FROM TBL WHERE TBL.c < 3.0;
+
+a
+3
+4
+5
+6
+3
+@SELECT a FROM TBL WHERE TBL.b > '2';
+
+a
+@SELECT a FROM TBL WHERE TBL.b > '2' AND TBL.b < '3';
+

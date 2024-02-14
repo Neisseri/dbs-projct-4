@@ -1,0 +1,135 @@
+@USE DATASET;
+
+rows
+5
+@INSERT INTO PART VALUES (60001, 'anything', 'Manufacturer#5', 'Brand#28', 'PROMO PLATED COPPER', 34, 'JUST WORD', 1364.23, 'SOMETHING'), (60002, 'anything', 'Manufacturer#1', 'Brand#12', 'PROMO PLATED COPPER', 34, 'JUST WORD', 1364.23, 'SOMETHING'), (60003, 'anything', 'Manufacturer#7', 'Brand#39', 'PROMO PLATED COPPER', 34, 'JUST WORD', 1525.23, 'SOMETHING'), (60004, 'anything', 'Manufacturer#5', 'Brand#21', 'PROMO PLATED COPPER', 34, 'JUST WORD', 1743.13, 'SOMETHING'),(60005, 'anything', 'Manufacturer#5', 'Brand#30', 'PROMO PLATED COPPER', 34, 'JUST WORD', 1636.35, 'SOMETHING');
+
+P_PARTKEY,P_NAME,P_MFGR,P_BRAND,P_TYPE,P_SIZE,P_CONTAINER,P_RETAILPRICE,P_COMMENT
+60005,anything,Manufacturer#5,Brand#30,PROMO PLATED COPPER,34,JUST WORD,1636.35,SOMETHING
+@SELECT * FROM PART WHERE P_BRAND = 'Brand#30';
+
+P_PARTKEY,P_BRAND,P_RETAILPRICE
+60001,Brand#28,1364.23
+60005,Brand#30,1636.35
+@SELECT P_PARTKEY, P_BRAND, P_RETAILPRICE FROM PART WHERE P_BRAND >= 'Brand#271' AND P_BRAND <= 'Brand#300';
+
+P_SIZE,P_PARTKEY,P_NAME
+50,1213,sandy khaki smoke puff forest
+50,2956,blue light burnished purple indian
+50,4259,misty peru mint cornflower green
+50,5330,drab peru ivory forest light
+50,6638,sandy antique cornflower dim honeydew
+50,7224,smoke turquoise medium seashell rose
+50,7598,floral blanched cornsilk lace slate
+50,8048,steel slate dim lemon cream
+50,8688,green navajo deep medium frosted
+50,8990,bisque maroon metallic magenta salmon
+50,9730,blue coral lavender navajo frosted
+50,9899,honeydew sienna steel thistle moccasin
+50,12723,lace plum salmon linen blue
+50,16634,saddle aquamarine mint lawn burlywood
+50,16834,misty salmon frosted dim pale
+50,20547,lawn hot smoke green sky
+50,21517,blue khaki indian goldenrod puff
+50,22541,thistle turquoise white seashell burlywood
+50,25241,blue grey cyan navajo rose
+50,27434,deep sandy salmon ghost indian
+50,28789,burlywood white bisque coral papaya
+50,29166,ghost midnight steel mint forest
+50,30537,chiffon forest navy sienna honeydew
+50,31218,grey violet floral lace thistle
+50,33603,orchid honeydew navy antique violet
+50,36901,puff forest plum beige burnished
+50,36994,brown slate blue dim rose
+50,38440,sienna deep goldenrod forest azure
+50,38741,cornsilk sandy chocolate salmon goldenrod
+50,39096,peach lemon mint white green
+50,39410,frosted aquamarine indian lemon dodger
+50,42310,violet gainsboro frosted azure blue
+50,43134,salmon royal frosted grey floral
+50,43366,steel misty red azure peru
+50,43679,forest maroon peru turquoise lemon
+50,44237,burnished hot forest black peru
+50,44316,spring pale peru cornflower tomato
+50,44584,peach orchid chiffon sky black
+50,44730,navajo plum dodger peru spring
+50,46479,sienna wheat burnished lavender red
+50,51778,midnight peach misty saddle brown
+50,53255,yellow metallic thistle coral gainsboro
+50,56502,burlywood wheat brown peru rose
+50,59385,olive seashell honeydew royal thistle
+50,59918,blue chocolate cream steel orchid
+@SELECT P_SIZE, P_PARTKEY, P_NAME FROM PART WHERE P_BRAND = 'Brand#13' AND P_SIZE > 49;
+
+P_PARTKEY,P_NAME,P_MFGR,P_BRAND,P_TYPE,P_SIZE,P_CONTAINER,P_RETAILPRICE,P_COMMENT
+625,beige indian lime sienna plum,Manufacturer#3,Brand#35,SMALL PLATED COPPER,38,LG JAR,1525.62,blithely slow multipl
+1624,smoke firebrick blue seashell red,Manufacturer#4,Brand#44,LARGE ANODIZED BRASS,19,LG PKG,1525.62,y slyly thin fo
+2623,ghost salmon sienna metallic papaya,Manufacturer#1,Brand#14,STANDARD BURNISHED TIN,42,WRAP CAN,1525.62,fluffily fur
+3622,puff beige maroon salmon chartreuse,Manufacturer#5,Brand#55,STANDARD POLISHED TIN,50,MED JAR,1525.62,mong
+4621,blanched navajo cyan tan coral,Manufacturer#2,Brand#23,MEDIUM BURNISHED BRASS,21,WRAP CAN,1525.62, furiously unusual pl
+5620,medium navajo chiffon blanched misty,Manufacturer#4,Brand#44,PROMO ANODIZED BRASS,1,SM CAN,1525.62,gular ideas det
+6619,violet frosted medium ivory cornsilk,Manufacturer#2,Brand#22,LARGE ANODIZED COPPER,21,JUMBO BOX,1525.61,s hang bli
+7618,gainsboro blue white yellow blanched,Manufacturer#5,Brand#54,ECONOMY ANODIZED COPPER,9,JUMBO PKG,1525.61,bits a
+8617,metallic seashell chocolate tomato forest,Manufacturer#1,Brand#12,PROMO ANODIZED TIN,31,SM PKG,1525.61,pending foxes
+9616,almond linen frosted drab tan,Manufacturer#3,Brand#34,SMALL ANODIZED STEEL,3,MED DRUM,1525.61,warhorses haggle fu
+10615,chocolate blanched lavender bisque grey,Manufacturer#5,Brand#53,LARGE POLISHED STEEL,36,LG BAG,1525.61,blithely bold ins
+11614,violet gainsboro lime midnight indian,Manufacturer#1,Brand#14,SMALL POLISHED TIN,7,SM CASE,1525.61,quietly pending th
+12613,burnished snow azure powder chiffon,Manufacturer#4,Brand#43,PROMO PLATED TIN,22,MED PKG,1525.61,ilent orbi
+13612,powder drab red saddle burnished,Manufacturer#1,Brand#11,ECONOMY PLATED TIN,22,WRAP CAN,1525.61,ronic wate
+14611,navy moccasin sandy honeydew aquamarine,Manufacturer#1,Brand#15,MEDIUM BRUSHED BRASS,26,SM BOX,1525.61,rding to the slyly r
+15610,red purple powder aquamarine olive,Manufacturer#4,Brand#45,SMALL ANODIZED NICKEL,21,MED CAN,1525.61, carefull
+16609,frosted lawn floral turquoise navy,Manufacturer#2,Brand#22,SMALL POLISHED NICKEL,29,SM BAG,1525.60,s dou
+17608,midnight spring blue lawn chartreuse,Manufacturer#4,Brand#44,PROMO ANODIZED TIN,15,LG DRUM,1525.60,yly regular dolph
+18607,coral lawn magenta dim lime,Manufacturer#4,Brand#45,LARGE PLATED BRASS,38,SM PKG,1525.60,p sly
+19606,misty thistle red green peru,Manufacturer#3,Brand#34,LARGE ANODIZED COPPER,26,WRAP CAN,1525.60,y express gift
+20605,powder forest lime aquamarine burnished,Manufacturer#1,Brand#11,STANDARD PLATED NICKEL,40,LG JAR,1525.60,foxes a
+21604,navajo slate firebrick sienna linen,Manufacturer#2,Brand#21,PROMO ANODIZED STEEL,50,SM PACK,1525.60,blithely bo
+22603,lawn hot olive tan lemon,Manufacturer#1,Brand#11,STANDARD ANODIZED STEEL,7,MED DRUM,1525.60, expre
+23602,blush turquoise spring chiffon tan,Manufacturer#1,Brand#13,PROMO POLISHED NICKEL,43,WRAP CASE,1525.60,kages. final dep
+24601,chiffon cornflower cream papaya powder,Manufacturer#4,Brand#42,LARGE BRUSHED COPPER,17,LG CAN,1525.60,bout the frets. busil
+25600,cornsilk navajo khaki powder olive,Manufacturer#2,Brand#25,MEDIUM ANODIZED COPPER,34,MED CAN,1525.60,y ironic
+26599,lime deep navy indian tan,Manufacturer#3,Brand#33,LARGE BURNISHED COPPER,46,JUMBO BAG,1525.59,al accounts are. senti
+27598,turquoise wheat maroon lemon coral,Manufacturer#5,Brand#54,LARGE BURNISHED STEEL,10,LG BAG,1525.59,. bold deposits s
+28597,cyan khaki powder red olive,Manufacturer#4,Brand#45,ECONOMY BURNISHED NICKEL,2,SM CAN,1525.59,thely final fo
+29596,blush turquoise rose burlywood magenta,Manufacturer#4,Brand#45,LARGE BURNISHED COPPER,22,JUMBO BOX,1525.59,counts sleep
+30595,lime slate tomato powder antique,Manufacturer#4,Brand#45,ECONOMY BURNISHED STEEL,50,JUMBO PACK,1525.59,lyly ironic dep
+31594,turquoise blue bisque violet red,Manufacturer#3,Brand#34,LARGE POLISHED BRASS,22,LG CAN,1525.59,packa
+32593,forest slate medium burlywood lemon,Manufacturer#5,Brand#52,PROMO BRUSHED BRASS,1,MED PKG,1525.59,s ideas. e
+33592,burlywood orange light bisque red,Manufacturer#3,Brand#33,STANDARD BRUSHED NICKEL,46,LG PACK,1525.59, furiously eve
+34591,lawn lace coral chartreuse goldenrod,Manufacturer#1,Brand#11,PROMO POLISHED COPPER,27,SM CASE,1525.59,e furiously sp
+35590,grey saddle pink medium sandy,Manufacturer#1,Brand#11,LARGE BURNISHED BRASS,19,JUMBO DRUM,1525.59, have to nag blithely
+36589,slate floral lavender dodger smoke,Manufacturer#3,Brand#32,MEDIUM PLATED STEEL,32,LG PKG,1525.58,uriously final re
+37588,tomato turquoise lace navajo puff,Manufacturer#3,Brand#31,STANDARD POLISHED TIN,8,WRAP BOX,1525.58,ess ideas
+38587,lawn floral smoke dodger ghost,Manufacturer#2,Brand#21,LARGE ANODIZED COPPER,7,SM DRUM,1525.58,le carefully slyly f
+39586,cream green brown lawn chartreuse,Manufacturer#5,Brand#52,STANDARD POLISHED BRASS,7,SM CAN,1525.58,lly slow
+40585,dark puff navajo navy snow,Manufacturer#5,Brand#52,LARGE POLISHED BRASS,13,LG CAN,1525.58,e slyly
+41584,purple lime saddle coral olive,Manufacturer#1,Brand#13,MEDIUM PLATED BRASS,30,JUMBO CASE,1525.58,sits haggle according
+42583,sandy linen brown ivory navy,Manufacturer#2,Brand#24,PROMO ANODIZED NICKEL,2,SM BAG,1525.58, gifts c
+43582,khaki navajo grey bisque sandy,Manufacturer#1,Brand#14,ECONOMY BURNISHED TIN,46,LG DRUM,1525.58,nt packages.
+44581,ivory seashell burlywood antique ghost,Manufacturer#3,Brand#31,LARGE ANODIZED BRASS,14,SM DRUM,1525.58,he careful
+45580,tomato black royal chocolate medium,Manufacturer#2,Brand#24,STANDARD PLATED TIN,14,JUMBO JAR,1525.58,arefully e
+46579,ghost magenta hot dim blue,Manufacturer#2,Brand#21,PROMO PLATED BRASS,47,MED DRUM,1525.57, blithely. caref
+47578,lace slate green tan bisque,Manufacturer#3,Brand#34,SMALL PLATED BRASS,11,MED CASE,1525.57,yly even foxes are ca
+48577,peach saddle tan almond medium,Manufacturer#4,Brand#41,STANDARD PLATED TIN,41,WRAP PACK,1525.57,eas according to
+49576,azure misty khaki slate orange,Manufacturer#4,Brand#41,LARGE ANODIZED BRASS,21,LG CAN,1525.57,sts acco
+50575,lime dim seashell burnished thistle,Manufacturer#5,Brand#55,ECONOMY BURNISHED NICKEL,35,SM JAR,1525.57,press deposits. plate
+51574,wheat firebrick dim mint peru,Manufacturer#4,Brand#44,LARGE POLISHED TIN,47,LG BAG,1525.57,ally regular dolphins.
+52573,yellow lemon coral white hot,Manufacturer#5,Brand#54,SMALL ANODIZED BRASS,12,SM JAR,1525.57,ipliers haggle. ideas
+53572,orchid honeydew magenta rose brown,Manufacturer#1,Brand#15,STANDARD PLATED BRASS,11,LG PKG,1525.57,ng packages boost
+54571,tan misty spring sandy blanched,Manufacturer#4,Brand#44,MEDIUM BRUSHED BRASS,8,MED JAR,1525.57,to beans
+55570,metallic antique lime deep sky,Manufacturer#4,Brand#44,PROMO PLATED COPPER,49,SM DRUM,1525.57, requests. blithely r
+56569,chiffon puff rosy cream light,Manufacturer#2,Brand#24,MEDIUM BURNISHED BRASS,2,WRAP JAR,1525.56, fluffily
+57568,saddle wheat plum linen burlywood,Manufacturer#4,Brand#42,LARGE BRUSHED TIN,24,LG PKG,1525.56,er furiously
+58567,tomato dodger orange sienna plum,Manufacturer#1,Brand#14,MEDIUM PLATED NICKEL,6,SM DRUM,1525.56,cross the deposits. ir
+59566,bisque hot drab burnished pink,Manufacturer#2,Brand#25,MEDIUM ANODIZED TIN,38,JUMBO CAN,1525.56, above the blithely r
+60003,anything,Manufacturer#7,Brand#39,PROMO PLATED COPPER,34,JUST WORD,1525.23,SOMETHING
+@SELECT * FROM PART WHERE P_RETAILPRICE > 1525.1 AND P_RETAILPRICE < 1525.9;
+
+rows
+1
+@DELETE FROM PART WHERE P_BRAND = 'Brand#30';
+
+P_BRAND
+Brand#28
+@SELECT P_BRAND FROM PART WHERE P_BRAND > 'Brand#27' AND P_BRAND < 'Brand#31';
+
